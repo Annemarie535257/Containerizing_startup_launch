@@ -6,8 +6,8 @@ WORKDIR /usr/share/nginx/html
 
 # Copy the HTML, CSS, and JavaScript files into the container
 COPY index.html .
-COPY style.css .
-COPY script.js .
+COPY index.css .
+COPY index.js .
 
 # Expose port 80 to allow external access
 EXPOSE 80
