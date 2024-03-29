@@ -34,6 +34,7 @@ function toggleTaskCompletion(checkbox) {
   }
 }
 
+
 function removeTask(button) {
   const li = button.parentElement;
   li.remove();
