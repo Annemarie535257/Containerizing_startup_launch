@@ -25,3 +25,15 @@ docker push annemarie535257/my-web-app-image:latest
 By containerizing our application with Docker, I ensured it could be easily deployed and scaled across different environments without compatibility issues. This approach simplifies the deployment process and enhances the portability and reliability of our web application.
 
 To access the application, you can use: http://localhost:8080/
+
+Throughout the development phase, several presumptions and choices were undertaken:
+
+Employed HTML, CSS, and JavaScript to construct the web application, aiming for a straightforward and lightweight deployment approach.
+
+Opted for Docker as the containerization tool to ensure seamless deployment and scalability across diverse environments.
+
+Integrated fundamental functionalities, including task addition, list viewing, and task completion, to fulfill project specifications.
+
+Refrained from incorporating external libraries or frameworks to maintain the application's lightweight nature and facilitate ease of management.
+
+Utilized Alpine Linux as the foundational image for the Docker container to minimize image size and enhance performance efficiency.
