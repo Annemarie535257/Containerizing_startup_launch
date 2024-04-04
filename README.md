@@ -16,11 +16,11 @@ docker build -t my-web-app-image -f Dockerfile.dockerfile .
 
 c. Tagging and Pushing the Image: After building the image, we tagged it with the appropriate repository name and version tag using the docker tag command. Then, we pushed the tagged image to Docker Hub using the docker push command to make it publicly accessible.
 
-docker run -d -p 8080:80 --name my-web-app-container my-web-app-image
+docker run -d -p 8080:80 --name my_tasks-container my_tasks
 
-docker tag my-web-app-image:latest annemarie535257/my-web-app-image:latest
+docker tag my_tasks:latest annemarie535257/my_tasks:latest
 
-docker push annemarie535257/my-web-app-image:latest
+docker push annemarie535257/my_tasks:latest
 
 By containerizing our application with Docker, I ensured it could be easily deployed and scaled across different environments without compatibility issues. This approach simplifies the deployment process and enhances the portability and reliability of our web application.
 
